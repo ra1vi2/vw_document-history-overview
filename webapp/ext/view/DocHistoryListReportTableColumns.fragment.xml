@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<!--Category Icon Column-->
+	<Column id="ExtensionWizard::ColumnBreakout">
+		<Text id="idCategoryIconCol" text="{i18n>CategoryIcon}" tooltip="{i18n>CategoryIconTooltip}"/>
+		<customData>
+			<core:CustomData key="p13nData" value='\{"columnKey": "CustomCategoryIcon", "columnIndex" : "11"}'/>
+		</customData>
+	</Column>
+</core:FragmentDefinition>

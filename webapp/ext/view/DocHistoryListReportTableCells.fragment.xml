@@ -1,0 +1,4 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core">
+	<!--Category Icon column content-->
+	<core:Icon id="idCategoryIcon" src="{CategoryIcon}" tooltip="{HistCatDesc}"></core:Icon>
+</core:FragmentDefinition>

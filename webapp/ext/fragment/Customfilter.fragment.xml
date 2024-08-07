@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:core="sap.ui.core"
+	xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<smartfilterbar:ControlConfiguration key="Last24hours" index="1" label="{i18n>CreateInLast24HrsOnlyFilter}" tooltip="{i18n>CreateInLast24HrsOnlyFilter}" visibleInAdvancedArea="true"
+		groupId="_BASIC">
+		<smartfilterbar:customControl>
+			<Switch state="true" id="idLast24hrFilter" change="handleSwitchChange" customData:hasValue="true">
+				<layoutData>
+					<FlexItemData growFactor="1"/>
+				</layoutData>
+			</Switch>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration>
+</core:FragmentDefinition>
